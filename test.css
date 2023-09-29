@@ -25,7 +25,7 @@ section {
 
 }
 .bg{
-    background-image: url(/ieee/images/front-page/front-page-header.jpg) ;
+    background-image: url(/images/front-page/front-page-header.jpg) ;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -419,7 +419,7 @@ img{
 
 .testimonials{
     height: 100%;
-    background-image: url(/ieee/images/testiomnials-background.jpg);
+    background-image: url(/images/testiomnials-background.jpg);
     padding: 100px 200px 0px 200px;
 }
 
@@ -545,7 +545,7 @@ img{
     position: relative;
     content: '';
     transform: rotate(45deg);
-    bottom: 110px;
+    bottom: 120px;
 }
 
 /* ----------------------------------------------------------------------- */
@@ -685,7 +685,7 @@ img{
 }
 
 .nums{
-    background-image: url(/ieee/images/front-page/front-page-counter.jpg);
+    background-image: url(/images/front-page/front-page-counter.jpg);
     background-size: cover;
         background-position: center;
         background-attachment: fixed;
