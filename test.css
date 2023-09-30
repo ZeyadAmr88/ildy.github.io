@@ -14,7 +14,7 @@ section {
 
 }
 .bg{
-    background-image: url(images/front-page-header.jpg) ;
+    background-image: url(images/front-page-header.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
