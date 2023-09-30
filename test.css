@@ -9,23 +9,12 @@
     scroll-behavior: smooth;
 }
 
-/* .homePage{
-    background-image: url(/ieee/images/front-page/front-page-header.jpg) ;
-        width: 100%;
-        min-height: 100vh;
-        display: flex; 
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-}
- */
-
 section {
     padding: 100px 200px;
 
 }
 .bg{
-    background-image: url(images/front-page/front-page-header.jpg) ;
+    background-image: url(images/front-page-header.jpg) ;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
