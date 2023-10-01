@@ -872,3 +872,315 @@ img{
     color: #8192a1;
 }
 
+
+@media screen and (max-width: 568px){
+
+    section {
+        padding: 10px 20px;
+    }
+
+    .bg {
+        background: url(images/front-page-header.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: unset;
+        width: 100%;
+    }
+    
+    .homePageHeader {
+        width: 100%;
+        display: flex;
+        padding: 15px 20px;
+        align-items: center;
+        justify-content: space-between;
+
+        & img {
+            width: 70px;
+            height: 35px;
+            cursor: pointer;
+        }
+
+        & .navigation {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 10px;
+            row-gap: 10px;
+            margin-right: 10px;
+        }
+
+        & .navigation a {
+            color: rgb(241, 241, 241);
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 600;
+            padding-left: 5px;
+        }
+        
+    }
+    .homeTitle {
+        font-size: 25px;
+    }
+
+    .homeTxt{
+        font-size: 11px;
+        text-align: center;
+        padding: 0 45px;
+        margin-bottom: -95px;
+    }
+
+    .homeButtons button {
+        width: 120px;
+        height: 45px;
+    }
+
+    .abouttitle{
+        margin-bottom: 40px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .majors{
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .majorTitleT{
+        margin-top: 10px;
+    }
+    .majorTitleD{
+        margin-top: 10px;
+    }
+    .majorTitleDe{
+        margin-top: 10px;
+    }
+
+    .majorBox{
+        margin-bottom: 15px;
+    }
+
+    .title{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .projects{
+        grid-template-columns: auto auto;
+        margin-top: 26px;
+    }
+
+    .project{
+        background-size: 1.5% 100%;
+        height: 480px;
+    }
+
+    .testimonials{
+        padding: 89px 20px 0px 20px;
+    }
+
+    .testTitle{
+        font-size: 20px;
+    }
+
+    .carousel .card span{
+        height: 220px;
+        font-size: small;
+        padding-bottom: 35px;
+        margin-top: 0;
+    }
+
+    .card .img img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .carousel .card h2{
+        font-size: 1rem;
+        margin: 29px 0 5px;
+    }
+
+    .wrapper i{
+        
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    }
+
+    .wrapper i:first-child {
+        left: -5px;
+    }
+
+    .wrapper i:last-child {
+        right: 3px;
+    }
+
+    .carousel .card::after{
+        bottom: 77px;
+    }
+
+    .services .subTitle{
+        font-size: 12px;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .servCards{
+        grid-template-columns: auto;
+        column-gap: 0;
+    }
+
+    .servTitle{
+        font-size: 25px;
+    }
+
+    .servContent{
+        font-size: small;
+    }
+
+    .newsTitle{
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .newsSubTitle{
+        font-size: 12px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+    .newBtns{
+        margin: 25px;
+    }
+
+    .newsBtn, .sendBtn {
+        width: 80px;
+        height: 30px;
+        font-size: x-small;
+    }
+
+    .newsCard {
+        grid-template-rows: 65px auto;
+        width: 175px;
+        height: 265px;
+    }
+    .newsCards {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        row-gap: 25px;
+        column-gap: 3px;
+    }
+
+    .newsCardImg img {
+        width: 175px;
+        height: 87px;
+    }
+    
+    .newsCardContent {
+        padding: 10px;
+    }    
+
+    .newsCardTitle {
+        font-size: 11px;
+        margin-top: 20px;
+    }
+
+    .newsCardTxt{
+        font-size: xx-small;
+    }
+
+    .cardLink {
+        font-size: x-small;
+    }
+    
+    .nums{
+        background: url(images/front-page/front-page-counter.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: unset;
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .num {
+        font-size: 50px;
+    }
+
+    .line{
+        margin-top: 25px;
+        height: 60px;
+    }
+
+    .team{
+        background-size: 1.5% 100%;
+
+        & .subTitle{
+            font-size: 10px;
+        }
+    }
+
+    .teamCards{
+        grid-template-columns: auto;
+        row-gap: 12px;
+    }
+
+    .addTitle, .ctmrTitle{
+        font-size: 12px;
+    }
+
+    .address{
+        grid-template-columns: 58px 11px auto;
+    }
+
+    .addTxt, .ctmrTxt, .conSocial i{
+        font-size: 12px;
+    }
+
+    .contacts {
+        margin-top: 35px;
+        row-gap: 15px;
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0;
+    }
+
+    .conLine{
+        height: 30px;
+    }
+
+    .ctmr{
+        grid-template-columns: 120px 10px auto;
+    }
+
+    .inputs{
+        grid-template-columns: auto;
+        margin: 20px;
+        margin-bottom: 50px;
+        row-gap: 20px;
+    }
+
+    .more{
+        padding: 20px 20px;
+    }
+
+    .mtitle{
+        font-size: small;
+        margin-bottom: 6px;
+
+    }
+
+    .texts{
+        font-size: xx-small;
+        grid-template-columns: 131px 143px auto;
+
+    }
+
+    .copyRight{
+        padding: 3px;
+        font-size: 7px;
+    }
+}
