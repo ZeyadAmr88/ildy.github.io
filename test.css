@@ -1184,3 +1184,55 @@ img{
         font-size: 7px;
     }
 }
+
+@media screen and (max-width: 440px){
+    .homePage{
+        justify-content: space-evenly;
+    }
+
+    .aboutTxt{
+        margin: 0px;
+        font-size: x-small;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+
+    }
+
+    .majors{
+        margin-top: 30px;
+    }
+
+    .toolTipT{
+        font-size: 11px;
+    }
+    .toolTipD{
+        font-size: 11px;
+    }
+    .toolTipDe{
+        font-size: 11px;
+    }
+
+    .carousel .card::after{
+        height: 67px;
+        width: 20px;
+        bottom: 76px;
+    }
+
+    .carousel .card span{
+        padding: 20px 32px;
+        font-size: x-small;
+        padding-bottom: 35px;
+
+    }
+
+    .num {
+        font-size: 40px;
+    }
+
+    .txt {
+        font-size: medium;
+    }
+
+    
+}
